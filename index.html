@@ -11,5 +11,22 @@
     />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container my-5">
+      <form action="./result.php" method="GET" class="row">
+        <div>
+          <label class="col-12" for="text">inserisci testo</label>
+          <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <div class="col-12 my-3">
+          <label for="badword">Bad Word</label>
+          <input type="text" id="badword" name="badword" />
+        </div>
+
+        <div class="my-3">
+          <button class="btn btn-primary">invia</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
